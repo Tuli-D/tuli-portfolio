@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuli Das - Music Professional | Python Developer | Technical Sales & Customer Success</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #2d3436;
+            --secondary: #636e72;
+            --accent: #e8c051;
+            --light: #fafafa;
+            --dark: #264653;
+            --text: #2a9d8f;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background: var(--light);
+        }
+
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header .tagline {
+            font-size: 1.2rem;
+            opacity: 0.8;
+        }
+
+        .music-credits {
+            position: absolute;
+            bottom: 1rem;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.8rem;
+            opacity: 0.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--secondary);
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        .section h2 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--accent);
+            font-size: 1.8rem;
+        }
+
+        .section h3 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .summary {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .summary p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .summary p strong {
+            color: var(--primary);
+        }
+
+        .skills, .education, .experience, .projects, .languages, .certifications {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+
+        .skills ul, .education ul, .experience ul, .projects ul, .languages ul, .certifications ul {
+            list-style: none;
+        }
+
+        .skills li, .education li, .experience li, .projects li, .languages li, .certifications li {
+            margin-bottom: 0.8rem;
+            padding: 0.8rem;
+            background: var(--light);
+            margin: 0.5rem 0;
+            border-radius: 4px;
+        }
+
+        .projects li {
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            border-left: 4px solid var(--accent);
+            background: #fff;
+        }
+
+        .projects h4 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .projects p {
+            color: var(--secondary);
+            font-size: 0.9rem;
+            margin: 0.3rem 0;
+        }
+
+        .projects .tech {
+            color: var(--secondary);
+            font-size: 0.8rem;
+            background: var(--light);
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            margin: 0.2rem 0;
+        }
+
+        .contact-info {
+            background: var(--primary);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .contact-info p {
+            margin: 0.5rem 0;
+        }
+
+        .contact-info a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--secondary);
+            font-size: 0.9rem;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 2rem; }
+            .section h2 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tuli Das</h1>
+        <div class="tagline">Music Professional | Python Developer | Technical Sales & Customer Success Aspirant</div>
+        <div class="music-credits">Trilingual: Bangla | English | German | 4-year Music Degree</div>
+    </header>
+
+    <div class="container">
+        
+        <div class="section summary">
+            <h2>Professional Summary</h2>
+            <p><strong>Classically trained Harmonium and Tabla performer</strong> with 4-year formal music education, now transitioning to technical sales and customer success in the technology sector.</p>
+            <p>Leveraged discipline, teamwork, and pressure-performance skills from rigorous music training to master Python, Linux, and data structures through self-directed learning.</p>
+            <p>Completed 4-month full-time IT internship gaining exposure to technical environments and customer interaction dynamics.</p>
+            <p><strong>Trilingual (Bangla/English/German)</strong> brings unique cross-cultural communication abilities and adaptability to diverse tech teams.</p>
+            <p>Seeking entry-level Technical Sales Representative, Customer Success Associate, or Product Support role where artistic discipline meets technical curiosity.</p>
+        </div>
+
+        <div class="section skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Python</strong> - Following learning path: Python → Linux → Bookbot → Git → OOP → Asteroids → Functional Programming → AI Agent → Data Structures</li>
+                <li><strong>Linux</strong> - Operating system fundamentals</li>
+                <li><strong>Git</strong> - Version control</li>
+                <li><strong>Data structures and algorithms</strong> - Basics and implementations</li>
+                <li><strong>AI agent development</strong> - Fundamentals</li>
+                <li><strong>Bookbot automation</strong> - Completed project</li>
+                <li><strong>Asteroids game</strong> - Classic game development</li>
+                <li><strong>Learning platform</strong> - bootdev</li>
+            </ul>
+        </div>
+
+        <div class="section transferable">
+            <h2>Transferable Skills (from Music)</h2>
+            <ul>
+                <li><strong>Discipline</strong> - 7+ years of music training, maintaining rigorous practice schedules</li>
+                <li><strong>Teamwork</strong> - Ensemble performances, collaborative music projects, group exams</li>
+                <li><strong>Performing under pressure</strong> - Final practical exams, live performances</li>
+                <li><strong>Problem-solving</strong> - Adapting to musical challenges, interpreting compositions</li>
+                <li><strong>Consultative advice</strong> - Guiding audiences/peers through musical experiences</li>
+                <li><strong>Strategic planning</strong> - Balancing repertoire, practice, performances</li>
+                <li><strong>Time management</strong> - Coordinating multiple subjects and practical exams</li>
+                <li><strong>Cross-cultural communication</strong> - Trilingual (Bangla/English/German)</li>
+            </ul>
+        </div>
+
+        <div class="section experience">
+            <h2>IT Internship</h2>
+            <p><strong>IT Internship | Tele | June 2026 - September 2026</strong></p>
+            <ul>
+                <li>Full-time 4-month internship at IT company (Tele)</li>
+                <li>Gained exposure to technical company operations and workflows</li>
+                <li>Observed team collaboration and project development processes</li>
+                <li>Developed understanding of technical customer interactions and support processes</li>
+                <li>Assisted with general office/technical support duties</li>
+                <li>Learned about technical processes and customer interaction dynamics</li>
+            </ul>
+        </div>
+
+        <div class="section education">
+            <h2>Education</h2>
+            <p><strong>BACHELOR OF MUSIC | University of Chittagong | 2022 (Exams held January 2025)</strong></p>
+            <ul>
+                <li>Specialized in Harmonium and Tabla performance</li>
+                <li>Comprehensive study of: Rabindra, Nazrul, Folk, Classical music</li>
+                <li>Core academic subjects: Computer Fundamentals, Sociology, Journalism, Psychology, Ancient Hindustani Music</li>
+                <li>Practical exams in every year final exams - developed discipline and performance under pressure</li>
+                <li>Developed ensemble teamwork skills through group performances</li>
+                <li>Maintained rigorous practice schedule alongside academic studies</li>
+            </ul>
+        </div>
+
+        <div class="section projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h4>Bookbot Automation Project</h4>
+                <p>Python automation tool for book analysis</p>
+                <span class="tech">Skills: Python, file processing, automation</span>
+                <p>Developed during learning journey via bootdev</p>
+            </div>
+            <div class="project">
+                <h4>Asteroids Game</h4>
+                <p>Classic game implementation built during learning journey</p>
+                <span class="tech">Skills: Python, game logic, creative problem-solving</span>
+                <p>Part of structured learning path: ... → OOP → Asteroids → ...</p>
+            </div>
+            <div class="project">
+                <h4>AI Agent</h4>
+                <p>AI assistant developed during learning journey</p>
+                <span class="tech">Skills: Python, API integration, basic AI/ML concepts</span>
+                <p>Part of structured learning path: ... → Functional Programming → AI Agent → ...</p>
+            </div>
+            <div class="project">
+                <h4>Data Structures Repository</h4>
+                <p>Collection of fundamental data structure implementations</p>
+                <span class="tech">Skills: algorithms, Python, problem-solving</span>
+                <p>Part of structured learning path: ... → Data Structures</p>
+            </div>
+        </div>
+
+        <div class="section languages">
+            <h2>Languages</h2>
+            <ul>
+                <li><strong>Bangla</strong>: Native/Bilingual</li>
+                <li><strong>English</strong>: Full Professional Proficiency</li>
+                <li><strong>German</strong>: Basic/Intermediate</li>
+            </ul>
+        </div>
+
+        <div class="section certifications">
+            <h2>Certifications & Courses</h2>
+            <ul>
+                <li>Python, Linux, Data Structures via bootdev (current learning path)</li>
+                <li>Build AI agent course completion</li>
+                <li>Build Asteroids course completion</li>
+                <li>[Add future certifications: Google Ads, HubSpot, Salesforce, etc.]</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="contact-info">
+        <p>📞 <strong>Phone:</strong> 01799628506 / 01533749580</p>
+        <p>📧 <strong>Email:</strong> <a href="mailto:tulidas.music4@gmail.com">tulidas.music4@gmail.com</a></p>
+        <p>📍 <strong>Location:</strong> Chittagong, Bangladesh</p>
+        <p>🔗 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/tuli-das" target="_blank">linkedin.com/in/tuli-das</a></p>
+    </div>
+
+    <footer class="footer">
+        <p>Portfolio & CV for Job Applications | Built with care | Transitioning from Music to Tech</p>
+    </footer>
+</body>
+</html>
